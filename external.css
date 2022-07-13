@@ -1,0 +1,19 @@
+body{
+    
+    font-style: italic;
+    font-weight: 100;
+   background-image: url(flower.jpg);
+}
+table{
+    padding: 10%;
+}
+ol{
+    color: blue;
+}
+ul{
+    color: chartreuse;
+}
+table{
+    background-color: cyan;
+    width: 10;
+}
