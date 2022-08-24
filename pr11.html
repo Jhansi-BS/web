@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.0.js"></script>
+    <script>
+        $(function(){
+            $("button").click(function(){
+                if($(this).text()=='FADE OUT'){
+                    $("div").fadeOut(1000);
+                    $(this).text("fade In")
+                 }
+                 else{
+                    $("div").fadeIn(1000);
+                    $(this).text("fade Out")
+                 }
+                });
+            });
+    
+    </script>
+</head>
+<body>
+    
+    <button>FADE OUT</button>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores dolore laboriosam maxime mollitia excepturi a quae, cumque quia accusamus voluptatum ipsum quos hic necessitatibus voluptas ex. Repudiandae, repellendus rem!</p>
+    </div>
+</body>
+</html>
